@@ -1,0 +1,105 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+}
+
+ul li {
+    transform: rotate(270deg);
+}
+.bgc {
+    background-color: #4445ef;
+    min-height: 100vh;
+}
+.bgcs, .transformed-wrap {
+    background-color: #00008B;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.658);
+}
+.woman-wrap {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.658);
+}
+span {
+    color: rgba(212, 212, 212, 0.5);
+    font-size: 185px;
+    font-weight: bolder;
+}
+.nancyy {
+    font-size: 97px;
+}
+.nancy {
+    position: relative;
+    left: 32%;
+    top: -175px;
+    z-index: 1;
+} 
+.sizee {
+    font-size: 35px;
+}
+.imagee {
+    width: 100%;
+    height: 32rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container-fluid {
+        padding: 0px 10px !important;
+    }
+    .bgcs {
+        border-radius: 10px;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.658);
+    }
+    .lists {
+        padding: 5px 3px !important;
+    }
+    ul {
+        padding: 0 !important;
+    }
+    ul li {
+        display: inline;
+        margin-left: 20px !important;
+        padding: 0px !important;
+    }
+    .imagee {
+        width: 100%;
+        height: 20rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .woman-wrap {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-top: 10px !important;
+    }
+    .transformed-wrap {
+        border-bottom-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.658);
+    }
+    .nancy {
+        position: unset;
+    }
+    span {
+        font-size: 36px;
+    }
+    .nancyy {
+        font-size: 36px;
+    }
+    .woman-wrap p {
+        font-size: 12px;
+    }
+    .icons {
+        margin: 10px 0px !important;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        width: max-content;
+        padding: 0px 5px !important;
+    }
+    .fa-facebook, .fa-twitter, .fa-linkedin {
+        border: 1px solid #fff;
+        padding: 2px 5px !important;
+        margin-top: 5px !important;
+        border-radius: 5px;
+    }
+}
